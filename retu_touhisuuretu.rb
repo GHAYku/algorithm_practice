@@ -9,5 +9,5 @@ puts array.join(" ")
 puts array.sum
 
 puts "数列の何項目を表示しますか？"
-n = gets.to_i
-p n *= b
+ n = gets.to_i
+puts array[n - 1]
