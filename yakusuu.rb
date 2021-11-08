@@ -2,15 +2,15 @@ print("入力された自然数nの約数を表示します。自然数nを入�
 
 
 print("n=")
-n=gets.to_i
+n =gets.to_i
 
 puts "入力された自然数nの約数は、"
 
-count=0
+count = 0
 
 for i in 1..n+1 do
-    d=n%i
-    if d==0 then
+    d = n % i
+    if d == 0 then
         puts i
     end
 end

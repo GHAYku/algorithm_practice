@@ -17,7 +17,7 @@ array = []
 (1..max).each do |a|
   (1..a).each do |b|
     (1..b).each do |c|
-      if a*a == b*b + c*c
+      if a*a == b*b + c*c 
         array << Pythagoras.new(a, b, c)
       end
     end
